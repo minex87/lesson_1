@@ -9,7 +9,7 @@ def search():
 
     for i in range(len(source)):
         if source[i] == word:
-            print("{}が見つかりました".format(word))
+            print(f'{word}が見つかりました')
             break
         if i == len(source)-1:
             print(f'{word}は見つかりませんでした。追加登録します。')
